@@ -1,0 +1,6 @@
+/presentation/.ipynb_checkpoints/
+/presentation/build/
+/presentation/*.svg
+/presentation/*.v
+/presentation/slides.slides.html
+/presentation/top.json
