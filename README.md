@@ -17,3 +17,13 @@ On Ubuntu: `sudo apt install jupyter-notebook`
 simply run `jupyter notebook` and follow what's in the terminal.
 
 Presentation mode: `./presentation/presentate.sh`
+
+# If litex, migen etc. are in a virtualenv
+Enter your virtualenv:
+```
+source env/bin/activate
+python -m ipykernel install --user --name=fpga_env
+jupyter-notebook
+```
+
+then choose `kernel->change kernel` from the notebook you opened.

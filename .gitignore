@@ -13,3 +13,4 @@ top.json
 *.o
 *.d
 *.bin
+*.elf
