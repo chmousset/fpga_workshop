@@ -1,6 +1,15 @@
-/presentation/.ipynb_checkpoints/
-/presentation/build/
-/presentation/*.svg
-/presentation/*.v
-/presentation/slides.slides.html
-/presentation/top.json
+# Ipython stuff
+.ipynb_checkpoints/
+*.html
+*.pdf
+
+# generic build outputs
+build/
+*.svg
+*.v
+top.json
+
+# C program artefacts
+*.o
+*.d
+*.bin
